@@ -1,0 +1,40 @@
+
+h3{
+    font-size: 25px !important;
+    width: cover;
+    background-color: rgba(255, 255, 255, 0.708);
+    color: purple;
+    height: 50px;
+    text-align: center;
+    text-align-last: center;
+    content: center;
+    
+
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+@keyframes example {
+    from {box-shadow: 4px 4px 50px white;}
+    to {box-shadow: 4px 4px 50px white;}
+}
+.button
+{
+    color: white;
+    background-color: blueviolet;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
